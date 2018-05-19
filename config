@@ -1,0 +1,11 @@
+#Evidemment, ceci est une simplification grossière de l’utilisation d’un virtual host.
+#Elle ne fonctionnerait pas en dehors de mon écosystème. 
+#Il n’y a pas non plus la virtualization par port.
+
+ServerName localhost
+DocumentRoot /Users/solalgaillard/Desktop/site1/
+
+ServerName 127.0.0.1
+DocumentRoot /Users/solalgaillard/Desktop/site2/
+
+
